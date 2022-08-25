@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="parallel_testing" parallel="tests">
+
+<test name="google">
+<classes>
+<class name="parallel_testNG.Google"></class>
+</classes>
+</test>
+
+<test name="facebook">
+<classes>
+<class name="parallel_testNG.Facebook"></class>
+</classes>
+</test>
+
+<test name="instagram">
+<classes>
+<class name="parallel_testNG.Instagram"></class>
+</classes>
+</test>
+
+
+</suite>

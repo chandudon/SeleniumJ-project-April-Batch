@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [grouping]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="grouping_test(failed)">
+    <groups>
+      <run>
+        <include name="instagram"/>
+        <include name="login"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testNG.Sample_class2">
+        <methods>
+          <include name="testB"/>
+        </methods>
+      </class> <!-- testNG.Sample_class2 -->
+    </classes>
+  </test> <!-- grouping_test(failed) -->
+</suite> <!-- Failed suite [grouping] -->
