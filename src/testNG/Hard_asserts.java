@@ -28,5 +28,8 @@ public class Hard_asserts
 		
 		//Assert.fail("the test is failed");
 		
+		
+		
+		
 	}
 }

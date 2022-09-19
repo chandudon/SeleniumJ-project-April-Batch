@@ -23,6 +23,7 @@ public class Alert_popup2
 		
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
+		alert.dismiss();
 		
 		driver.findElement(By.xpath("")).click();
 		Thread.sleep(2000);
